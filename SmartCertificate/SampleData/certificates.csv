@@ -1,0 +1,5 @@
+SerialNumber,HolderName,Issuer,IssueDate,ExpiryDate,IsRevoked
+ABC12345,John Doe,University A,2022-06-01,2024-06-01,false
+DEF67890,Jane Smith,Institute B,2021-01-15,2023-01-15,true
+GHI13579,Alan Turing,University C,2023-03-10,2025-03-10,false
+JKL24680,Ada Lovelace,Institute D,2020-12-05,2022-12-05,true

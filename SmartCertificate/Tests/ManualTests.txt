@@ -1,0 +1,11 @@
+Manual test cases:
+1. Start app and choose 1 to list certificates (should show sample data inserted).
+2. Choose 2 to add certificate, verify appears in list.
+3. Choose 5 or 6 to verify certificates by id or serial.
+4. Choose 3 to update an entry and confirm changes.
+5. Choose 4 to delete an entry and verify removal.
+6. Choose 7 to demo searching and sorting (LINQ/Array).
+
+Edge cases:
+- Verify non-existent id/serial returns NotFound.
+- Expired and revoked certificates should return appropriate statuses.

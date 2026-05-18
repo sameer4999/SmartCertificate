@@ -1,0 +1,21 @@
+@startuml
+class User {
+  - int Id
+  - string Username
+  - string Email
+  + GetRole()
+}
+class Student
+class Admin
+class Employer
+class Certificate
+class CertificateRepository
+class CertificateService
+
+User <|-- Student
+User <|-- Admin
+User <|-- Employer
+CertificateRepository ..> Certificate
+CertificateService ..> CertificateRepository
+CertificateService ..> Certificate
+@enduml
